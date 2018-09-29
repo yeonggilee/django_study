@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<a href= 'b'> hello </a>
+<form action="b">
+<input type=submit value="hey">
+</form>
+{% for member in members %}
+<div id="{{members.name}}" style="width:200px; height: auto; background-color: yellow;">
+	<hr>
+	{{member.name}}<br>
+	{{member.age}}<br>
+	{{member.phone}}<br>
+	<hr>
+</div>
+{% endfor %}
+</body>
+</html>
